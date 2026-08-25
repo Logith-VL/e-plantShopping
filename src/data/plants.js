@@ -1,5 +1,3 @@
-plant.js
-
 const plants = [
   {
     id: 1,

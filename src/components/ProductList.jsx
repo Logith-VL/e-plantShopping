@@ -40,11 +40,10 @@ function ProductList() {
                 <article className="plant-card" key={plant.id}>
                   <img
                     src={plant.image}
-                    alt={plant.name}
-                    className="plant-image"
-                  />
+    ="plant-card-content">
+                    <h3>{plant.name}</h3>
 
-      -description">
+                    <p className="plant-description">
                       {plant.description}
                     </p>
 

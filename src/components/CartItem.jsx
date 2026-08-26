@@ -65,9 +65,9 @@ function CartItem() {
 
           return (
             <article className="cart-card" key={item.id}>
-              <img
-                src={item.image}
-Name="cart-item-details">
+              {item.image}
+
+              <div className="cart-item-details">
                 <h2>{item.name}</h2>
 
                 <p className="cart-unit-price">

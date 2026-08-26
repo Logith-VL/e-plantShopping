@@ -38,9 +38,9 @@ function ProductList() {
             <div className="plant-grid">
               {categoryPlants.map((plant) => (
                 <article className="plant-card" key={plant.id}>
-                  <img
-                    src={plant.image}
-    ="plant-card-content">
+                  {plant.image}
+
+                  <div className="plant-card-content">
                     <h3>{plant.name}</h3>
 
                     <p className="plant-description">
